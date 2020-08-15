@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "f1a93eee-ff2f-4668-8c7c-d33b92b7bafd",
+		"name": "FinalTwet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "fT",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1ZjM3MjRhYTBkODJjNzE4MDRhMjZjZDciLCJ1c2VyX25hbWUiOiJkaWVnbyIsInVzZXJfZW1haWwiOiJkb3JvemNvQG1lbGFwZWxhLmNvbSIsInVzZXJfdXNlcm5hbWUiOiJkb3JvemNvIiwiaWF0IjoxNTk3NDUxMDE3LCJleHAiOjE1OTc2MjM4MTd9.8EQ-tI8x_MwXX40S6I1WnT-MBF0l6GxpdFB3Ecrb4JU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "mycommands",
+							"value": "REGISTER pegre prronquillo@melapela.com pronquillo 12345",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "LOGIN dorozco 12345",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "PROFILE dorozco",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "FOLLOW pronquillo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "UNFOLLOW pronquillo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "SEARCH_USER pronquillo",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "ADD_TWEET dddddddd",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "DELETE_TWEET 5f37296b941f7c3b04d75909",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "LIKE_TWEET 5f37296b941f7c3b04d75909",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "mycommands",
+							"value": "DISLIKE_TWEET 5f37296b941f7c3b04d75909",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3150/mycommands",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3150",
+					"path": [
+						"mycommands"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
